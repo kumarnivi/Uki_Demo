@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design Example</title>
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">MyWebsite</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="hero">
+            <h1>Welcome to My Website</h1>
+            <p>This is a simple responsive design example.</p>
+            <button class="cta-button">Learn More</button>
+        </section>
+
+        <section class="services">
+            <div class="service-card">
+                <h2>Service 1</h2>
+                <p>Details about service 1.</p>
+            </div>
+            <div class="service-card">
+                <h2>Service 2</h2>
+                <p>Details about service 2.</p>
+            </div>
+            <div class="service-card">
+                <h2>Service 3</h2>
+                <p>Details about service 3.</p>
+            </div>
+        </section>
+
+        <div>
+            <div class="container text-center">
+                <div class="row">
+                  <div class=" col-md-6 col-sm-4"><div class="col"><h1>Helo world</h1></div> </div>
+                  <div  class=" col-md-6 col-sm-4"><div class="col">.col-6 .col-sm-4</div></div>
+              
+                  <!-- Force next columns to break to new line at md breakpoint and up -->
+                  <div class="w-100 d-none d-md-block"></div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-6 col-sm-4"> <div class="col">.col-6 .col-sm-4</div></div>
+                    <div class="col-6 col-sm-4"> <div class="col">.col-6 .col-sm-4</div></div>
+                </div>
+                  
+             
+              </div>
+              
+        </div>
+
+
+
+        adsdf
+
+        <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col">
+                <h1>columns</h1>
+                One of three columns
+              </div>
+              <div class="col">
+                One of three columns
+              </div>
+              <div class="col">
+                One of three columns
+              </div>
+              <div class="col">
+                One of three columns
+              </div>
+            </div>
+          </div>
+
+        <div class="responsive-flex">
+            <div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis deleniti architecto temporibus voluptatum nesciunt maiores reiciendis numquam hic voluptatem modi sunt possimus, eos unde, odit repellat, facere impedit at. Vero!
+                
+            </div>
+            <div>
+                <img src="./blog-1.jpg" alt="" width="250px" height="250px">
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 MyWebsite. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Toggle mobile menu
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
